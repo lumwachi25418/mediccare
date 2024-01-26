@@ -22,7 +22,7 @@
     float:left;
 }
 .mercy{
-    background:url("../images/ezgif-2-b583d0ce77.png") no-repeat center center/cover;
+   background:url("../images/ezgif-2-b583d0ce77.png") no-repeat center center/cover;
     height:60vh;
     position: relative;
     
@@ -33,6 +33,18 @@ h1{
    
    color:blue;
    
+}
+.a{
+    color:white;
+    background-color: #496bf2;
+    padding: 5px;
+    margin: 5px;
+}
+.b{
+    color:white;
+    background-color: #2dd6c1;
+    padding: 5px;
+    margin: 5px;
 }
 
    .wembley{
@@ -46,24 +58,43 @@ h1{
 .oldtrafford{
     display:flex;
 }
+.about{
+    color:#2dd6c1
+    
+}
+.us{
+    color:#496bf2
+    
+}
 .qualified{
     margin-top:50px;
 margin-left:50px;
-width:10%;
-Box-shadow:5px 5px 5px darkgrey;
+width:30%;
+Box-shadow:0px 0px 5px darkgrey;
+}
+.qualified h2{
+    color:#496bf2
 }
 .Emergency{
     margin-top:50px;
 margin-left: 50px;
-width: 10%;
-Box-shadow : 5px 5px  5px darkgrey;
+padding-left: 5px;
+padding-right: 5px;
+width: 30%;
+Box-shadow : 0px 0px  5px darkgrey;
+}
+.Emergency h2{
+    color:#496bf2;
 }
 .service{
     margin-top: 50px;
     margin-left: 50px;
-    width:10%;
-    Box-shadow : 5px 5px 5px darkgrey;
+    width:30%;
+    Box-shadow : 0px 0px 5px darkgrey;
 
+}
+.service h2{
+    color:#496bf2;
 }
 .container{
     width:80%;
@@ -84,3 +115,11 @@ Box-shadow : 5px 5px  5px darkgrey;
     line-height:1.5;
 
 }
+.about-section{
+    margin-top:20px;
+}
+ .gunners{
+    height: 80vh;
+    background: url(../images/ezgif-2-81a50240fb.png)  no-repeat  center  center/cover;
+}
+
